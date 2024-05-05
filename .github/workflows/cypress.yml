@@ -11,7 +11,7 @@ jobs:
     # the of runner that the job will run on
     runs-on: ubuntu-latest
     container:
-      image: cypress/browsers:node-18.20.2-chrome-124.0.6367.119
+      image: cypress/browsers:node-18.20.2-chrome-124.0.6367.119-1-ff-118.0.2-edge-118.0.2088.46-1
       options: --user 1001
     steps:
       - name: Checkout
